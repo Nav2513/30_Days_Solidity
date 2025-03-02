@@ -15,7 +15,7 @@ contract Day_two_Function_and_Visibilty_modifiers {
     private     YES                 NO          NO          NO
     internal    YES                 YES         NO          NO
     external    NO                  NO          YES         YES
-*/
+    */
 
     /* 
         DIFFRENCE BETWEEN INTERNAL AND EXTERNAL FUNCTION !
@@ -35,7 +35,7 @@ contract Day_two_Function_and_Visibilty_modifiers {
         ~ From transaction(externally).
         ~ Can't be called inside the same contract.
 
-*/
+    */
 
     /* 
 
@@ -62,7 +62,7 @@ contract Day_two_Function_and_Visibilty_modifiers {
 
     pure --> when the function does not read or modify state variables. It should work only with local variable or parameter.
 
-*/
+    */
 
     // Public functions generate an auto-generatedd getter function for state variables.
 
