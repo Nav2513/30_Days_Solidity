@@ -3,7 +3,7 @@ pragma solidity ^0.8.28;
 
 import "forge-std/Test.sol";
 import "forge-std/console.sol";
-import "../src/Day1-Data-types-and-Variables.sol";
+import "../src/Day-one-Data-types-and-Variables.sol";
 
 contract Day1_Data_types_and_Variables is Test {
     DayOne dataTypes;
