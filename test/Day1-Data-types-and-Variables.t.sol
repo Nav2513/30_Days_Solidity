@@ -20,7 +20,7 @@ contract Day1_Data_types_and_Variables is Test {
     Benefits -->
     1. function marked as view do not consume gas If we don't use it solidity may assume the function may modify the blockchain
     2. It helps in the clear semantic.
-*/
+    */
 
     /* 
     console.log() -->
@@ -29,7 +29,7 @@ contract Day1_Data_types_and_Variables is Test {
     It used to debug the smart contract it used to print the statement like javascript. 
     It allow to print the value inside the test function
 
-*/
+    */
 
     /* .
 
@@ -39,7 +39,7 @@ contract Day1_Data_types_and_Variables is Test {
     Passes if actual == expected
     Fails if actual != expected
 
-*/
+    */
 
     /* 
     memory --> (Keyword)
@@ -51,7 +51,7 @@ contract Day1_Data_types_and_Variables is Test {
     When passing struct or array to a function, using memory ensure modifiactios don't the original data stored in the storage.
 
     Since string is a dynamic array of bytes, you must explictly specify memory when declaration a string inside a function.
-*/
+    */
 
     function testPostiveNumber() public view {
         uint256 number = dataTypes.postiveNumber();
@@ -60,7 +60,7 @@ contract Day1_Data_types_and_Variables is Test {
     }
 
     function testNegativeNumber() public view {
-        int negativeNumber = dataTypes.negativeNumber();
+        int256 negativeNumber = dataTypes.negativeNumber();
         console.log("Negative Number:", negativeNumber);
         assertEq(negativeNumber, -12);
     }
