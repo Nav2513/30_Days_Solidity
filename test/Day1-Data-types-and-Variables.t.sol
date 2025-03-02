@@ -12,9 +12,7 @@ contract Day1_Data_types_and_Variables is Test {
         dataTypes = new DayOne();
     }
 
-    /* 
-    Put test the name of the function so it behave as a test otherwise it can't give you desirable output. 
-    */
+    // Put test the name of the function so it behave as a test otherwise it can't give you desirable output.
 
     /* 
     "view" If we are not modifying the blockchain then we can use view other-wise it may give an error "Function state mutability can be restricted to view"  
@@ -54,6 +52,7 @@ contract Day1_Data_types_and_Variables is Test {
 
     Since string is a dynamic array of bytes, you must explictly specify memory when declaration a string inside a function.
 */
+
     function testPostiveNumber() public view {
         uint256 number = dataTypes.postiveNumber();
         console.log("Positive Number:", number);
