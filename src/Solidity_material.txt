@@ -1,0 +1,86 @@
+1. Solidity Basics
+✅ Data Types & Variables (uint, int, string, bool, address, etc.)
+✅ Functions & Visibility Modifiers (public, private, internal, external)
+✅ Control Structures (if-else, loops, modifiers)
+✅ Events & Logging
+✅ Error Handling (require, assert, revert)
+✅ Structs & Enums
+
+
+2. Smart Contract Structure & Best Practices
+✅ Contract Inheritance & Abstract Contracts
+✅ Interfaces & Libraries
+✅ Storage vs. Memory vs. Calldata
+✅ Gas Optimization Techniques
+✅ Function Overloading
+
+
+3. Ethereum & Blockchain Fundamentals
+✅ Ethereum Virtual Machine (EVM)
+✅ Gas & Transaction Costs
+✅ Smart Contract Deployment & Execution
+✅ Ethereum Accounts (EOA vs. Contract Accounts)
+✅ Nonce & Transaction Ordering
+
+
+4. Security in Solidity
+✅ Reentrancy Attacks & Preventive Measures (Use checks-effects-interactions pattern)
+✅ Integer Overflow & Underflow (Use SafeMath)
+✅ Access Control (Ownable, Role-Based Access Control)
+✅ Denial of Service (DOS) Attacks
+✅ Front-Running & MEV Protection
+✅ Self-Destruct & Delegatecall Vulnerabilities
+✅ Randomness Issues in Solidity
+
+
+5. Solidity Advanced Concepts
+✅ Assembly (Yul) for Low-Level Optimization
+✅ Proxy Contracts & Upgradeability (Transparent Proxy, UUPS Proxy)
+✅ Custom Error Handling (Solidity 0.8+)
+✅ Merkle Trees & Hashing
+✅ Off-Chain vs. On-Chain Computation
+✅ Cross-Contract Interactions & External Calls
+
+
+6. Token Standards & DeFi Development
+✅ ERC-20 (Fungible Tokens)
+✅ ERC-721 (NFTs)
+✅ ERC-1155 (Multi-Token Standard)
+✅ Stablecoins & Their Mechanisms
+✅ DEXs & Automated Market Makers (AMMs)
+✅ Liquidity Pools & Staking Mechanisms
+✅ Flash Loans & Yield Farming
+
+
+7. Testing & Deployment
+✅ Unit Testing with Hardhat & Foundry
+✅ Mocking & Simulation (Forking Mainnet)
+✅ Gas Profiling & Optimization
+✅ Continuous Integration (CI/CD) for Solidity Projects
+✅ Security Auditing with Slither, MythX, and Echidna
+✅ Smart Contract Verification (Etherscan, Sourcify)
+
+
+8. Interacting with Solidity Contracts
+✅ Using Web3.js & Ethers.js
+✅ Calling Contracts from Frontend (Next.js, React, etc.)
+✅ MetaMask & WalletConnect Integration
+✅ Event Listening & Real-Time Updates
+✅ Oracles & Chainlink Integration
+
+
+9. Blockchain Scaling & L2 Solutions
+✅ Layer 2 Solutions (Arbitrum, Optimism, zkSync)
+✅ Bridging Assets Between Networks
+✅ State Channels & Rollups
+✅ IPFS & Decentralized Storage
+
+
+10. Building Real-World Projects
+🔹 DEX (Uniswap-like)
+🔹 NFT Marketplace
+🔹 Lending/Borrowing Protocol (Aave-like)
+🔹 DAO (Decentralized Autonomous Organization)
+🔹 Lottery & Gaming Smart Contracts
+🔹 Subscription-Based Smart Contracts
+🔹 Multi-Sig Wallet
