@@ -14,19 +14,19 @@ contract Day1_Data_types_and_Variables is Test {
 
     // Put test the name of the function so it behave as a test otherwise it can't give you desirable output.
 
-    /* 
-    "view" If we are not modifying the blockchain then we can use view other-wise it may give an error "Function state mutability can be restricted to view"  
-    
+    /*
+    "view" If we are not modifying the blockchain then we can use view other-wise it may give an error "Function state mutability can be restricted to view"
+
     Benefits -->
     1. function marked as view do not consume gas If we don't use it solidity may assume the function may modify the blockchain
     2. It helps in the clear semantic.
     */
 
-    /* 
+    /*
     console.log() -->
     import "forge-std/console.sol";
 
-    It used to debug the smart contract it used to print the statement like javascript. 
+    It used to debug the smart contract it used to print the statement like javascript.
     It allow to print the value inside the test function
 
     */
@@ -41,9 +41,9 @@ contract Day1_Data_types_and_Variables is Test {
 
     */
 
-    /* 
+    /*
     memory --> (Keyword)
-    
+
     Memory is the data location specifier used for the temporary storage during function execution.
 
     It primarly used for variables that are needed only during the execution of a function and not to be stored permanently on the blockchain.

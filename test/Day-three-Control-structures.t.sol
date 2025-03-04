@@ -57,14 +57,14 @@ contract DayThreeTest is Test {
     // Test only Owner Modifier.
 
     /*
-    
-    vm --> 
+
+    vm -->
 
     ~ In Foundry, vm refers to the "cheatcodes" provided by foundry'vm interface.
     ~ It allows you to manipulate blockchain state in tests, making it easier to test smart contract effectively.
 
     Common vm Cheatcodes in Foundry:
-    
+
     Cheatcode                   Description
     -------------------------------------------------------------------------------
     vm.prank(address)           // Changes msg.sender for the next transaction.
@@ -75,7 +75,7 @@ contract DayThreeTest is Test {
     vm.roll(uint256)            // Moves the block number forward.
     vm.warp(uint256)            // Changes the block timestamp.
     vm.deal(address, uint256)   // Sets the balance of an address.
-    
+
     */
 
     function testChangeOwnerAsOwner() public {
@@ -85,6 +85,8 @@ contract DayThreeTest is Test {
     function testChangeOwnerAsNonOwner() public {
         vm.prank(testUser); // Simulate a different caller.
         vm.expectRevert("Not the contract owner");
-        dayThree.changeOwner(address(0x182C5307665059DEdE3cB5B8585D0FD59716845B));
+        dayThree.changeOwner(
+            address(0x182C5307665059DEdE3cB5B8585D0FD59716845B)
+        );
     }
 }
