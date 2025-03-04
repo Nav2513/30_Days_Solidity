@@ -2,11 +2,7 @@
 pragma solidity ^0.8.28;
 
 contract Day_four_Event_and_Logging {
-    event ValueUpdate(
-        address indexed updater,
-        uint256 oldValue,
-        uint256 newValue
-    );
+    event ValueUpdate(address indexed updater, uint256 oldValue, uint256 newValue);
 
     uint256 public value;
 

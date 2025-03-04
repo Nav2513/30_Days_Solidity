@@ -85,8 +85,6 @@ contract DayThreeTest is Test {
     function testChangeOwnerAsNonOwner() public {
         vm.prank(testUser); // Simulate a different caller.
         vm.expectRevert("Not the contract owner");
-        dayThree.changeOwner(
-            address(0x182C5307665059DEdE3cB5B8585D0FD59716845B)
-        );
+        dayThree.changeOwner(address(0x182C5307665059DEdE3cB5B8585D0FD59716845B));
     }
 }
