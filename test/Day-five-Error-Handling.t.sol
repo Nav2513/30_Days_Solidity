@@ -14,6 +14,6 @@ contract DayFive is Test {
 
     function testRequireError() public {
         vm.expectRevert("Counter must be greater than zero");
-        dayFive.setCounter(1);
+        dayFive.setCounter(0);
     }
 }
