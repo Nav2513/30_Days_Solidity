@@ -1,7 +1,15 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.28;
 
-contract Day_five_Error_Handling {}
+contract Day_five_Error_Handling {
+    uint256 public counter;
+
+    // require: Input Validation
+    function setCounter(uint256 _newCounter) public {
+        require(_newCounter < 0, "Counter must be greater than zero");
+        counter = _newCounter;
+    }
+}
 
 /* 
 

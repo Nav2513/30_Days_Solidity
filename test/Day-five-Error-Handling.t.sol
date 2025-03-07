@@ -11,4 +11,9 @@ contract DayFive is Test {
     function setUp() public {
         dayFive = new Day_five_Error_Handling();
     }
+
+    function testRequireError() public {
+        vm.expectRevert("Counter must be greater than zero");
+        dayFive.setCounter(1);
+    }
 }

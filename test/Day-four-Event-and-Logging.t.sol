@@ -17,7 +17,11 @@ contract DayThree is Test {
         uint256 newValue = 42;
 
         vm.expectEmit(true, true, false, true);
-        emit Day_four_Event_and_Logging.ValueUpdate(address(this), oldValue, newValue);
+        emit Day_four_Event_and_Logging.ValueUpdate(
+            address(this),
+            oldValue,
+            newValue
+        );
 
         dayFour.updateValue(newValue);
     }
