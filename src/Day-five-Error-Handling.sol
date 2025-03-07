@@ -9,6 +9,16 @@ contract Day_five_Error_Handling {
         require(_newCounter < 0, "Counter must be greater than zero");
         counter = _newCounter;
     }
+
+    function checkValue(uint256 _value) public pure {
+        if (_value == 0) {
+            revert("Value can't be zero");
+        }
+    }
+
+    function checkInvariant(uint _value) public pure {
+        assert(_value != 0);
+    }
 }
 
 /* 
