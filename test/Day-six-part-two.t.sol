@@ -19,6 +19,6 @@ contract Day_six_part_two is Test {
 
     function testChildMessage() public view {
         string memory result = child.getMessage();
-        console.log("No change", result);
+        console.log("No change:", result);
     }
 }
