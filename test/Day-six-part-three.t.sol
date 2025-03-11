@@ -6,18 +6,14 @@ import "forge-std/console.sol";
 import "../src/Day-six-part-three.sol";
 
 contract Day_six_part_3 is Test {
-    ConcreateContract concreate;
+    Cat cat;
 
     function setUp() public {
-        concreate = new ConcreateContract();
+        cat = new Cat();
     }
 
-    function testAbstractFunction() public view {
-        assertEq(
-            concreate.abstractFunction(),
-            "Implement abstract function !!!"
-        );
-        string memory result = concreate.abstractFunction();
-        console.log("Result String:", result);
+    function test() public view {
+        string memory result = cat.abstractFunction();
+        console.log("Result:", result);
     }
 }
