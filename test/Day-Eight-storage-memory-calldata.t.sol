@@ -16,19 +16,19 @@ contract DayEightTest is Test {
         assertEq(contractInstance.storedValue(), 42);
     }
 
-    // function testSetRecentYear() public view {
-    //     uint[5] memory result = contractInstance.setRecentYear();
+    function testSetRecentYear() public view {
+        uint[5] memory result = contractInstance.setRecentYear();
 
-    //     for (uint i = 0; i < 5; i++) {
-    //         console.log("Result Year:", result[i]);
-    //     }
-    // }
+        for (uint i = 0; i < 5; i++) {
+            console.log("Result Year:", result[i]);
+        }
+    }
 
-    // function testSetRecentYearCalldata() public view {
-    //     uint[5] memory input = [uint(2021), 2022, 2023, 2024, 2025];
-    //     uint[5] memory result = contractInstance.setRecentYearCalldata(input);
-    //     for (uint i = 0; i < 5; i++) {
-    //         console.log("Result data:", result[i]);
-    //     }
-    // }
+    function testSetRecentYearCalldata() public view {
+        uint[5] memory input = [uint(2021), 2022, 2023, 2024, 2025];
+        uint[5] memory result = contractInstance.setRecentYearCalldata(input);
+        for (uint i = 0; i < 5; i++) {
+            console.log("Result data:", result[i]);
+        }
+    }
 }
