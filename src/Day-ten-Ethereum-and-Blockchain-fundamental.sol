@@ -31,6 +31,8 @@ Key Feature of EVM
 In Ethereum, gas is a unit that measures the computational wprk required 
 to execute transactions, smart contracts, and operations. Since Ethereum is a decentralized network, minos(or validator in Ehtereum 2.0) need incentives to process and validator transaction.
 
+Gas can be optimised in diffrent ways
+
 
 
 
