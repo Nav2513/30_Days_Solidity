@@ -60,6 +60,69 @@ Use Gas-efficient Standard : ERC-721A(for NFTs), ERC-20 gas optimization techniq
 
 
 
+                --- Transactions in Blockchain ---
+
+A Transaction in Blockchain is a digital record of an event that is permanently stored on a decentralized ledger. Transaction can invlove cryptocurrenncy transfer, smart contract executions, or any data update on the blockchain.
+
+
+
+
+Types of Transactions in Blochain 
+
+Basic Transaction
+
+~ Cryptocurrency Transfer : Sending tokken (ETH, BTC, etc.) from one wallet to another.
+
+~ Smart Contract Execution : Interacting with a decentralized application.
+
+~ Token Approval & Transfers : Approving dApp to use tokens (e.g., ERC-20 tookens).
+
+
+
+
+                --- Components of a Blockchain Transaction ---
+
+Sender Address : The public address sending the transaction.
+
+Receiver Address : The destination address receiving the transaction.
+
+Nonce : A counter that ensures each transaction is unique.
+
+Gas Fee : The fee paid to vallidators/miners for processing the transaction.
+
+Transaction Data : Smart contract function calls or message(optional).
+
+Signature : A cryptographic signature proving ownership of the transaction.
+
+
+
+
+                --- How transaction work in Ethereum (EVM-based Blockchain) ---
+
+
+User Creates a transaction : Using wallets like MetaMask or hardware wallets.
+
+Transaction is Broadcasted : Sent to the blockchain network ofr verfication.
+
+Validator Process it : Miners(Proof of work) or Validator (Proof of Stake) verify it.
+
+Transaction is confirmed : Added to a block and stored on the blockchain permanently.
+
+
+
+
+                --- Transaction Lifecycle in Blockchain ---
+
+
+Transaction Created : User signs it with their private key.
+
+Pending Pool(Mempool) : The transaction waits for confirmation.
+
+Block Validator : Miners/Validator verify it based on blockchain rule.
+
+Transaction Included in Block : Once validator, it is added to the blockchain.
+
+Finalization : After a few confirmations, the transaction becomes irreversible.
 
 
 */
