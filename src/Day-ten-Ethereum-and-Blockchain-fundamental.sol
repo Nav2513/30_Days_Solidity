@@ -31,12 +31,31 @@ Key Feature of EVM
 In Ethereum, gas is a unit that measures the computational wprk required 
 to execute transactions, smart contracts, and operations. Since Ethereum is a decentralized network, minos(or validator in Ehtereum 2.0) need incentives to process and validator transaction.
 
-Gas can be optimised in diffrent ways
+~ Gas represents the computational effort required to execute operations in the Ethereum Virtual Machine (EVM).
 
+~ Every operation (e.g., adding numbers, storing data, executing a contract) has a fixed gas cost.
 
+~ Gas is not a currency but a unit of measure.
 
+~ Total Gas = Gas Used * Gas Price
 
+                --- Why do Gas price fluctuate ? ---
 
+Network Congestion : Higher demand increase the base fee.
+
+Transaction Complexity : Simple transfer cost less than executing smart contract.
+
+Block Size & Priority : User paying higher fess get included faster.
+
+                --- Reducing Gas Costs ---
+
+Use Layer 2 Solution : Polygon, Arbitrum, Optimism offer lower fees.
+
+Optimize Smart Contracts : Efficient code reduces execution code.
+
+Time Transaction : GAs fes are lower during off-peak hours.
+
+Use Gas-efficient Standard : ERC-721A(for NFTs), ERC-20 gas optimization techniques.
 
 
 
