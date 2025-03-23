@@ -29,7 +29,6 @@
 ✅ Access Control (Ownable, Role-Based Access Control)
 ✅ Denial of Service (DOS) Attacks
 ✅ Front-Running & MEV Protection
-✅ Self-Destruct & Delegatecall Vulnerabilities
 ✅ Randomness Issues in Solidity
 
 
