@@ -9,5 +9,7 @@ Smart contracts are self-executing programs designed to enforce agreements witho
 
 In traditional network security, a DoS attack overwhelms a machine or network resource with excessive traffic, making it unavailable to intended users. In other words, the attacker attempts to make a computer or network resource unavailable to its intended users by disrupting the services of a host connected to the Internet. The goal of a DoS attack is to overwhelm the targeted system with an enormous amount of requests or data, causing it to become unresponsive or crash.
 
+\
+
 
 */
